@@ -450,6 +450,9 @@ ul {
 
 .socials-icon {
     fill: #AFB1B8;
+    transition-property: fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .socials-link:hover,
@@ -747,6 +750,7 @@ ul {
 .join .socials-link:hover,
 .join .socials-link:focus {
     background-color: var(--accent-color);
+    fill: #FFFFFF;
 }
 
 .join .socials-link:hover .socials-icon,
@@ -801,4 +805,7 @@ ul {
     height: 20px;
     fill: black;
     background-color: #FFFFFF;
+    border: 1px solid;
+    border-color: black;
+    border-radius: 50%;
 }
